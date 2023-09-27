@@ -52,15 +52,16 @@ fun GreetingText(name: String) {
             .padding(start = 12.dp, top = 8.dp)
             .fillMaxSize(0.5f) // fill half ofScreen
             .clickable { },// make view clickable
-//        style = TextStyle(
-//            color = Color.Blue,
-//            fontWeight = FontWeight.SemiBold,
-//            fontSize = 18.sp
-//        )
-        style = MaterialTheme.typography.displaySmall,
-        fontWeight = FontWeight.SemiBold
+        style = TextStyle(
+            color = Color.Blue,
+            fontWeight = FontWeight.SemiBold,
+            fontSize = 18.sp
+        ),
+//        style = MaterialTheme.typography.displaySmall,
+//        fontWeight = FontWeight.SemiBold
     )
 }
+
 
 @Composable
 fun GreetingButton(name: String) {
